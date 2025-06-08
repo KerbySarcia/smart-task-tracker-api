@@ -7,9 +7,9 @@ import cookieParser from "cookie-parser";
 
 import connectDB from "./config/db";
 
-import taskRoute from "../src/routes/task.route";
-import userRoute from "../src/routes/user.route";
-import fileRoute from "../src/routes/file.route";
+import taskRoute from "./routes/task.route";
+import userRoute from "./routes/user.route";
+import fileRoute from "./routes/file.route";
 import limiter from "./config/rate-limit";
 
 const app = express();
